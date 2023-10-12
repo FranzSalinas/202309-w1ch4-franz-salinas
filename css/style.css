@@ -18,18 +18,28 @@ header {
   justify-content: space-between;
   gap: 5rem;
   padding: 1rem 2rem 0 2rem;
+  box-shadow: -9px -1px 90px -23px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -9px -1px 90px -23px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -9px -1px 90px -23px rgba(0, 0, 0, 0.75);
 }
 
 h1 {
-  font-size: 1rem;
+  font-size: 2rem;
+  padding-left: 7rem;
+  padding-top: 4rem;
+  font-weight: bolder;
+  color: rgb(237, 100, 54);
 }
 
 li:hover {
-  color: orange;
+  color: rgb(237, 100, 54);
 }
 
 .pointer {
-  font-size: 4rem;
+  font-size: 6rem;
+  padding: 0 0 0rem 6rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 a {
@@ -37,5 +47,23 @@ a {
   color: black;
 }
 a:hover {
-  color: orange;
+  color: rgb(237, 100, 54);
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-between;
+  width: 5rem;
+  gap: 2rem;
+  padding: 0 0 0 5rem;
+}
+.pictures img {
+  height: 29rem;
+  width: 32rem;
+  border-radius: 3rem;
+}
+
+.main-titles {
+  display: flex;
+  justify-content: space-between;
 }
